@@ -24,7 +24,21 @@ public class AudioSyncColor : AudioSyncer
         Color _c = RandomColor();
 
         StopCoroutine("MoveToColor");
-        StartCoroutine("MoveToColor", _c);
+
+        if (mood != null && playerGameData != null)
+        {
+            if (mood == "all")
+            {
+                StartCoroutine("MoveToColor", _c);
+            }
+            else if (playerGameData.chosenMood == mood)
+            {
+                StartCoroutine("MoveToColor", _c);
+            }
+        } else
+        {
+            StartCoroutine("MoveToColor", _c);
+        }
     }
 
     public override void OnUpdate()

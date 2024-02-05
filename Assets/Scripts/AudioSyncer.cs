@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class AudioSyncer : MonoBehaviour
 {
+    public GameData playerGameData = null;
+    public string mood = "all";
     // what spectrum val triggers a beat
     public float bias;
     // min interval between beats
@@ -19,11 +21,6 @@ public class AudioSyncer : MonoBehaviour
     private float m_timer;
 
     protected bool m_isBeat;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -56,7 +53,6 @@ public class AudioSyncer : MonoBehaviour
 
     public virtual void OnBeat()
     {
-        Debug.Log("beat");
         m_timer = 0;
         m_isBeat = true;
     }

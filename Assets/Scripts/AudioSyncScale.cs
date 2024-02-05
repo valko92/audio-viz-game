@@ -21,7 +21,21 @@ public class AudioSyncScale : AudioSyncer
         base.OnBeat();
 
         StopCoroutine("MoveToScale");
-        StartCoroutine("MoveToScale", beatScale);
+
+        if (mood != null && playerGameData != null)
+        {
+            if (mood == "all")
+            {
+                StartCoroutine("MoveToScale", beatScale);
+            }
+            else if (playerGameData.chosenMood == mood)
+            {
+                StartCoroutine("MoveToScale", beatScale);
+            }
+        } else
+        {
+            StartCoroutine("MoveToScale", beatScale);
+        }
     }
 
     private IEnumerator MoveToScale(Vector3 _target)

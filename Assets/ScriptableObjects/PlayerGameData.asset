@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014568b815bda9e45ae796bfc8d98579, type: 3}
+  m_Name: PlayerGameData
+  m_EditorClassIdentifier: 
+  happyClip: {fileID: 8300000, guid: 60c9d14506ee954439ea79889e1e9964, type: 3}
+  sadClip: {fileID: 8300000, guid: cd94c2c3dd5ea7c4f943db75e7c88250, type: 3}
+  vibingClip: {fileID: 8300000, guid: 1ece33c0dbf00e2488af40a8c83e0d50, type: 3}
+  happyColor: {r: 0.7924528, g: 0.6764796, b: 0.19063722, a: 1}
+  sadColor: {r: 0.1009256, g: 0.6736846, b: 0.7924528, a: 1}
+  vibingColor: {r: 0.8113208, g: 0.14159843, b: 0.22410436, a: 1}
+  chosenMood: vibing
+  chosenMoodColor: {r: 0.8113208, g: 0.14159843, b: 0.22410436, a: 1}

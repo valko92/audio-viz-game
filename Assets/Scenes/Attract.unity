@@ -453,6 +453,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb5b7e069984ad4199f4d13bbe7e167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 3
   timeStep: 1
   timeToBeat: 0.05
@@ -474,6 +476,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d230b5fc88a3c24998dcac87f4d12a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 3
   timeStep: 1
   timeToBeat: 0.05
@@ -569,6 +573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d230b5fc88a3c24998dcac87f4d12a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 1
   timeStep: 0.15
   timeToBeat: 0.05
@@ -625,6 +631,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb5b7e069984ad4199f4d13bbe7e167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 1
   timeStep: 0.15
   timeToBeat: 0.05
@@ -685,6 +693,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb5b7e069984ad4199f4d13bbe7e167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 7
   timeStep: 2
   timeToBeat: 0.05
@@ -706,6 +716,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d230b5fc88a3c24998dcac87f4d12a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 7
   timeStep: 2
   timeToBeat: 0.05
@@ -1229,6 +1241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb5b7e069984ad4199f4d13bbe7e167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 10
   timeStep: 0.15
   timeToBeat: 0.05
@@ -1250,6 +1264,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d230b5fc88a3c24998dcac87f4d12a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 10
   timeStep: 0.15
   timeToBeat: 0.05
@@ -1294,6 +1310,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339758353}
   m_CullTransparentMesh: 1
+--- !u!1 &1391171554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1391171556}
+  - component: {fileID: 1391171555}
+  m_Layer: 0
+  m_Name: PlayerDataResetter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1391171555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391171554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb47d29f252e42418db0c71c10e7460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerGameData: {fileID: 11400000, guid: 4ded5eda202c2c24692916c41cccad0e, type: 2}
+--- !u!4 &1391171556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391171554}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.46196938, y: -0.13597745, z: 90.94048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1405823264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,7 +1397,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 66b7e68701bd6d04e88b4196953a3450, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.276
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1486,6 +1547,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb5b7e069984ad4199f4d13bbe7e167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 11
   timeStep: 0.15
   timeToBeat: 0.05
@@ -1507,6 +1570,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d230b5fc88a3c24998dcac87f4d12a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 11
   timeStep: 0.15
   timeToBeat: 0.05
@@ -1817,6 +1882,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d230b5fc88a3c24998dcac87f4d12a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 10.24
   timeStep: 0.03
   timeToBeat: 0.16
@@ -1874,6 +1941,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb5b7e069984ad4199f4d13bbe7e167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 8
   timeStep: 0.24
   timeToBeat: 0.11
@@ -1895,6 +1964,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d230b5fc88a3c24998dcac87f4d12a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 8
   timeStep: 0.24
   timeToBeat: 0.05
@@ -2100,6 +2171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb5b7e069984ad4199f4d13bbe7e167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 9
   timeStep: 2
   timeToBeat: 1.5
@@ -2179,7 +2252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneFader: {fileID: 1779693134}
-  Scene: Main
+  Scene: MoodPicker
 --- !u!4 &2021327315
 Transform:
   m_ObjectHideFlags: 0
@@ -2246,6 +2319,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb5b7e069984ad4199f4d13bbe7e167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 9
   timeStep: 0.15
   timeToBeat: 0.05
@@ -2267,6 +2342,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d230b5fc88a3c24998dcac87f4d12a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerGameData: {fileID: 0}
+  mood: 
   bias: 9
   timeStep: 0.15
   timeToBeat: 0.05
@@ -2320,3 +2397,4 @@ SceneRoots:
   - {fileID: 250232080}
   - {fileID: 2021327315}
   - {fileID: 1405823267}
+  - {fileID: 1391171556}
