@@ -1318,7 +1318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneFader: {fileID: 278069419}
-  Scene: Attract
+  Scene: LowPicker
 --- !u!1 &1295155924
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,7 +2013,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 60c9d14506ee954439ea79889e1e9964, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.371
   m_Pitch: 1
   Loop: 1
   Mute: 0

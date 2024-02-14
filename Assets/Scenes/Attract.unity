@@ -1339,7 +1339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb47d29f252e42418db0c71c10e7460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerGameData: {fileID: 11400000, guid: 4ded5eda202c2c24692916c41cccad0e, type: 2}
 --- !u!4 &1391171556
 Transform:
   m_ObjectHideFlags: 0
@@ -1397,7 +1396,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 66b7e68701bd6d04e88b4196953a3450, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.276
+  m_Volume: 0.213
   m_Pitch: 1
   Loop: 0
   Mute: 0

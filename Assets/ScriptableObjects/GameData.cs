@@ -19,4 +19,5 @@ public class GameData : ScriptableObject
     [Header("Player Input Values")]
     public string chosenMood;
     public Color chosenMoodColor;
+    public AudioClip chosenLowBeat;
 }

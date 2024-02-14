@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MoodPicker.unity
     guid: 4954dba8c2c4b6e4690bee5da0496d4f
+  - enabled: 1
+    path: Assets/Scenes/LowPicker.unity
+    guid: 2a9685fc9c9088e40a962c16334ee00d
   m_configObjects: {}
