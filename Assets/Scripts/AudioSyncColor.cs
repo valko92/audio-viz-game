@@ -31,7 +31,7 @@ public class AudioSyncColor : AudioSyncer
             {
                 StartCoroutine("MoveToColor", _c);
             }
-            else if (playerGameData.chosenMood == mood)
+            if (playerGameData.currentBeat == gameObject.tag)
             {
                 StartCoroutine("MoveToColor", _c);
             }

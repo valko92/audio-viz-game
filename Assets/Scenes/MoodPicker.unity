@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 95399831}
   m_Layer: 5
   m_Name: Vibing
-  m_TagString: Untagged
+  m_TagString: beat3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -699,7 +699,7 @@ GameObject:
   - component: {fileID: 326084655}
   m_Layer: 5
   m_Name: Sad
-  m_TagString: Untagged
+  m_TagString: beat2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1035,7 +1035,7 @@ GameObject:
   - component: {fileID: 1055075895}
   m_Layer: 5
   m_Name: Vibing Viz
-  m_TagString: Untagged
+  m_TagString: beat3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerGameData: {fileID: 11400000, guid: 4ded5eda202c2c24692916c41cccad0e, type: 2}
   mood: vibing
-  bias: 10
+  bias: 5
   timeStep: 0.1
   timeToBeat: 0.08
   restSmoothTime: 6
@@ -1154,7 +1154,7 @@ GameObject:
   - component: {fileID: 1079327422}
   m_Layer: 5
   m_Name: Happy
-  m_TagString: Untagged
+  m_TagString: beat1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1744,7 +1744,7 @@ GameObject:
   - component: {fileID: 1749003990}
   m_Layer: 5
   m_Name: HappyViz
-  m_TagString: Untagged
+  m_TagString: beat1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2152,7 +2152,7 @@ GameObject:
   - component: {fileID: 1872859701}
   m_Layer: 5
   m_Name: Sad Viz
-  m_TagString: Untagged
+  m_TagString: beat2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2190,7 +2190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerGameData: {fileID: 11400000, guid: 4ded5eda202c2c24692916c41cccad0e, type: 2}
   mood: sad
-  bias: 12
+  bias: 9
   timeStep: 0.5
   timeToBeat: 0.5
   restSmoothTime: 3

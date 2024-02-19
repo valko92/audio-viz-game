@@ -15,8 +15,36 @@ MonoBehaviour:
   happyClip: {fileID: 8300000, guid: 60c9d14506ee954439ea79889e1e9964, type: 3}
   sadClip: {fileID: 8300000, guid: cd94c2c3dd5ea7c4f943db75e7c88250, type: 3}
   vibingClip: {fileID: 8300000, guid: 1ece33c0dbf00e2488af40a8c83e0d50, type: 3}
+  happyLow1: {fileID: 8300000, guid: f06ffa8c16ce77e44b6fef1469aac7ea, type: 3}
+  happyLow2: {fileID: 8300000, guid: 5ae500505f107bc4cb1e7495e5d22577, type: 3}
+  happyLow3: {fileID: 8300000, guid: 23f7ffd554551e843a4b34dd3633d062, type: 3}
+  happyMid1: {fileID: 0}
+  happyMid2: {fileID: 0}
+  happyMid3: {fileID: 0}
+  happyHigh1: {fileID: 0}
+  happyHigh2: {fileID: 0}
+  happyHigh3: {fileID: 0}
+  sadLow1: {fileID: 8300000, guid: 882a993c989a18f4fb5f5974adf7b7c1, type: 3}
+  sadLow2: {fileID: 8300000, guid: 8479eb36c5156fa429f532ffbd616237, type: 3}
+  sadLow3: {fileID: 8300000, guid: 66c2a0b6887049c4880fe52dd4bf7cba, type: 3}
+  sadMid1: {fileID: 0}
+  sadMid2: {fileID: 0}
+  sadMid3: {fileID: 0}
+  sadHigh1: {fileID: 0}
+  sadHigh2: {fileID: 0}
+  sadHigh3: {fileID: 0}
+  vibeLow1: {fileID: 8300000, guid: eede74383aeded646814478bc8cc08d7, type: 3}
+  vibeLow2: {fileID: 8300000, guid: 1d7b3e0e6ba0aa14a9aa671b24cf433b, type: 3}
+  vibeLow3: {fileID: 8300000, guid: 3a6c091c599cfe944896294070143c14, type: 3}
+  vibeMid1: {fileID: 0}
+  vibeMid2: {fileID: 0}
+  vibeMid3: {fileID: 0}
+  vibeHigh1: {fileID: 0}
+  vibeHigh2: {fileID: 0}
+  vibeHigh3: {fileID: 0}
   happyColor: {r: 0.7924528, g: 0.6764796, b: 0.19063722, a: 1}
   sadColor: {r: 0.1009256, g: 0.6736846, b: 0.7924528, a: 1}
   vibingColor: {r: 0.8113208, g: 0.14159843, b: 0.22410436, a: 1}
   chosenMood: vibing
   chosenMoodColor: {r: 0.8113208, g: 0.14159843, b: 0.22410436, a: 1}
+  chosenLowBeat: {fileID: 0}

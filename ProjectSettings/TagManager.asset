@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - beat1
+  - beat2
+  - beat3
   layers:
   - Default
   - TransparentFX

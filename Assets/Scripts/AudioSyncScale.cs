@@ -28,7 +28,7 @@ public class AudioSyncScale : AudioSyncer
             {
                 StartCoroutine("MoveToScale", beatScale);
             }
-            else if (playerGameData.chosenMood == mood)
+            if (playerGameData.currentBeat == gameObject.tag)
             {
                 StartCoroutine("MoveToScale", beatScale);
             }

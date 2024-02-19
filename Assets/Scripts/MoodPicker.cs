@@ -17,6 +17,7 @@ public class MoodPicker : MonoBehaviour
 
         playerGameData.chosenMood = "happy";
         playerGameData.chosenMoodColor = playerGameData.happyColor;
+        playerGameData.currentBeat = "beat1";
     }
     public void PlaySadTune()
     {
@@ -26,6 +27,7 @@ public class MoodPicker : MonoBehaviour
 
         playerGameData.chosenMood = "sad";
         playerGameData.chosenMoodColor = playerGameData.sadColor;
+        playerGameData.currentBeat = "beat2";
     }
     public void PlayVibingTune()
     {
@@ -35,6 +37,7 @@ public class MoodPicker : MonoBehaviour
 
         playerGameData.chosenMood = "vibing";
         playerGameData.chosenMoodColor = playerGameData.vibingColor;
+        playerGameData.currentBeat = "beat3";
     }
     // Start is called before the first frame update
     void Start()
