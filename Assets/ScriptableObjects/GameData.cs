@@ -65,5 +65,6 @@ public class GameData : ScriptableObject
     public string chosenMood;
     public Color chosenMoodColor;
     public AudioClip chosenLowBeat;
+    public AudioClip chosenMidBeat;
     public string currentBeat;
 }

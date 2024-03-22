@@ -16181,7 +16181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneFader: {fileID: 278069419}
-  Scene: Attract
+  Scene: MidPicker
 --- !u!1 &1295155924
 GameObject:
   m_ObjectHideFlags: 0
